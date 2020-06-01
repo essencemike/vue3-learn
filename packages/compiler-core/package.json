@@ -1,0 +1,25 @@
+{
+  "name": "@vue/compiler-core",
+  "version": "1.0.0",
+  "description": "@vue/compiler-core",
+  "main": "index.js",
+  "module": "dist/compiler-core.esm-bundler.js",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "types": "dist/compiler-core.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essencemike/vue3-learn.git"
+  },
+  "keywords": [
+    "vue3"
+  ],
+  "author": "IMike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/essencemike/vue3-learn/issues"
+  },
+  "homepage": "https://github.com/essencemike/vue3-learn/tree/master/packages/compiler-core#readme"
+}

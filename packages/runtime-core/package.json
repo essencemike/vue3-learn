@@ -1,0 +1,25 @@
+{
+  "name": "@vue/runtime-core",
+  "version": "1.0.0",
+  "description": "@vue/runtime-core",
+  "main": "index.js",
+  "module": "dist/runtime-core.esm-bundler.js",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "types": "dist/runtime-core.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essencemike/vue3-learn.git"
+  },
+  "keywords": [
+    "vue3"
+  ],
+  "author": "IMike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/essencemike/vue3-learn/issues"
+  },
+  "homepage": "https://github.com/essencemike/vue3-learn/tree/master/packages/runtime-core#readme"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@vue/shared",
+  "version": "1.0.0",
+  "description": "@vue/shared",
+  "main": "index.js",
+  "module": "dist/shared.esm-bundler.js",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "types": "dist/shared.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essencemike/vue3-learn.git"
+  },
+  "keywords": [
+    "vue3"
+  ],
+  "author": "IMike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/essencemike/vue3-learn/issues"
+  },
+  "homepage": "https://github.com/essencemike/vue3-learn/tree/master/packages/shared#readme"
+}
