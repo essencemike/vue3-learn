@@ -64,13 +64,13 @@ files.forEach(shortName => {
     fs.writeFileSync(
       apiExtractorConfigPath,
       `
-      {
-        "extends": "../../api-extractor.json",
-        "mainEntryPointFilePath": "./dist/packages/<unscopedPackageName>/src/index.d.ts",
-        "dtsRollup": {
-          "publicTrimmedFilePath": "./dist/<unscopedPackageName>.d.ts"
-        }
-      }
+{
+  "extends": "../../api-extractor.json",
+  "mainEntryPointFilePath": "./dist/packages/<unscopedPackageName>/src/index.d.ts",
+  "dtsRollup": {
+    "publicTrimmedFilePath": "./dist/<unscopedPackageName>.d.ts"
+  }
+}
       `.trim()
     )
   }

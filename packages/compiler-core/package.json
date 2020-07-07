@@ -9,6 +9,13 @@
     "dist"
   ],
   "types": "dist/compiler-core.d.ts",
+  "buildOptions": {
+    "name": "VueCompilerCore",
+    "formats": [
+      "esm-bundler",
+      "cjs"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/essencemike/vue3-learn.git"
@@ -21,5 +28,11 @@
   "bugs": {
     "url": "https://github.com/essencemike/vue3-learn/issues"
   },
-  "homepage": "https://github.com/essencemike/vue3-learn/tree/master/packages/compiler-core#readme"
+  "homepage": "https://github.com/essencemike/vue3-learn/tree/master/packages/compiler-core#readme",
+  "dependencies": {
+    "@babel/parser": "^7.10.2",
+    "@babel/types": "^7.10.2",
+    "estree-walker": "^2.0.1",
+    "source-map": "^0.7.3"
+  }
 }

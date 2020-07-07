@@ -1,20 +1,14 @@
 {
-  "name": "@vue/shared",
+  "name": "@vue/template-explorer",
   "version": "1.0.0",
-  "description": "internal utils shared across @vue packages",
+  "description": "@vue/template-explorer",
   "main": "index.js",
-  "module": "dist/shared.esm-bundler.js",
+  "module": "dist/template-explorer.esm-bundler.js",
   "files": [
     "index.js",
     "dist"
   ],
-  "types": "dist/shared.d.ts",
-  "buildOptions": {
-    "formats": [
-      "esm-bundler",
-      "cjs"
-    ]
-  },
+  "types": "dist/template-explorer.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/essencemike/vue3-learn.git"
@@ -27,5 +21,5 @@
   "bugs": {
     "url": "https://github.com/essencemike/vue3-learn/issues"
   },
-  "homepage": "https://github.com/essencemike/vue3-learn/tree/master/packages/shared#readme"
+  "homepage": "https://github.com/essencemike/vue3-learn/tree/master/packages/template-explorer#readme"
 }
